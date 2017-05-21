@@ -104,7 +104,7 @@
 			"type": 3,
 			"weight": 1,
 			"des":"node:3, index:3, weight:1",
-			"data":"[{\"text\":\"1我是TextCard\"},{\"text\":\"2我是TextCard\"},{\"text\":\"3我是TextCard\"},{\"text\":\"4我是TextCard\"},{\"text\":\"5我是TextCard\"}]",
+			"data":"[{\"text\":\"1我是TextCard\"},{\"text\":\"2我是TextCard\"},{\"text\":\"3我是TextCard\"},{\"text\":\"4我是TextCard\"},{\"text\":\"5我是TextCard\"},{\"text\":\"6我是TextCard\"},{\"text\":\"7我是TextCard\"},{\"text\":\"8我是TextCard\"},{\"text\":\"9我是TextCard\"},{\"text\":\"10我是TextCard\"}]",
 			"children":[]
 		}
 
