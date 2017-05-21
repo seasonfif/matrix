@@ -1,0 +1,112 @@
+{
+	"type": 0,
+	"des":"tree",
+	"data":"{\"title\":\"哈哈，我是root card\"}",
+	"children":[
+		{
+			"type": 0,
+			"weight": 0,
+			"des":"node:2, index:1, weight:0",
+			"data":"{\"title\":\"哈哈，我是root card\"}",
+			"children":[
+				{
+					"type": 0,
+					"weight": 0,
+					"des":"node:3, index:1, weight:0",
+					"data":"{\"title\":\"哈哈，我是root card\"}",
+					"children":[
+						{
+							"type": 0,
+							"weight": 0,
+							"des":"node:4, index:1, weight:0",
+							"data":"{\"title\":\"哈哈，我是root card\"}",
+							"children":[
+								{
+									"type": 1,
+									"weight": 0,
+									"des":"node:5, index:1, weight:0",
+									"data":"{\"text\":\"我是ItemCard\"}",
+									"children":[]
+								}
+							]
+						}
+
+					]
+				},
+				{
+					"type": 0,
+					"weight": 0,
+					"des":"node:3, index:2, weight:0",
+					"data":"{\"title\":\"哈哈，我是root card\"}",
+					"children":[
+						{
+							"type": 1,
+							"weight": 0,
+							"des":"node:4, index:2, weight:0",
+							"data":"{\"text\":\"我是ItemCard\"}",
+							"children":[]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": 1,
+			"weight": 0,
+			"des":"node:2, index:2, weight:0",
+			"data":"{\"text\":\"我是ItemCard\"}",
+			"children":[]
+		},
+		{
+			"type": 1,
+			"weight": 0,
+			"des":"node:2, index:3, weight:0",
+			"data":"{\"text\":\"我是ItemCard\"}",
+			"children":[]
+		},
+		{
+			"type": 1,
+			"weight": 2,
+			"des":"node:2, index:4, weight:2",
+			"data":"{\"text\":\"我是ItemCard\"}",
+			"children":[]
+		},
+		{
+			"type": 1,
+			"weight": 0,
+			"des":"node:2, index:6, weight:1",
+			"data":"{\"text\":\"我是ItemCard\"}",
+			"children":[
+				{
+					"type": 2,
+					"weight": 1,
+					"des":"node:3, index:3, weight:1",
+					"data":"{\"text\":\"我是TextCard\"}",
+					"children":[]
+				},
+				{
+					"type": 2,
+					"weight": 1,
+					"des":"node:3, index:3, weight:1",
+					"data":"{\"text\":\"我是TextCard\"}",
+					"children":[]
+				},
+				{
+					"type": 2,
+					"weight": 1,
+					"des":"node:3, index:3, weight:1",
+					"data":"{\"text\":\"我是TextCard\"}",
+					"children":[]
+				}
+			]
+		},
+		{
+			"type": 3,
+			"weight": 1,
+			"des":"node:3, index:3, weight:1",
+			"data":"[{\"text\":\"1我是TextCard\"},{\"text\":\"2我是TextCard\"},{\"text\":\"3我是TextCard\"},{\"text\":\"4我是TextCard\"},{\"text\":\"5我是TextCard\"}]",
+			"children":[]
+		}
+
+	]
+}
