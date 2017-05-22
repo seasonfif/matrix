@@ -3,7 +3,7 @@ Matrix
 
 一个轻量级的基于卡片模板的自动化布局框架
 
-###关于我
+###**关于我**
 
 > 我的其他项目：
 >[github第三方Android客户端（适配Material Design）](https://github.com/seasonfif/github)
@@ -53,7 +53,8 @@ Matrix
 
 ## **示例**
 提供代码片段以帮助大家更快地理解其使用方法
-#####1. 一个实现INode接口的节点数据模型
+
+**1. 一个实现INode接口的节点数据模型**
 ```java
 以框架中的实现为例
 public class Node implements INode<String> {
@@ -80,7 +81,9 @@ public class Node implements INode<String> {
   }
 }
 ```
-#####2. 一个实现IFactory抽象工厂接口的Card工厂类
+
+**2. 一个实现IFactory抽象工厂接口的Card工厂类**
+
 ```java
 public class CardFactory implements ICardFactory {
   public static final int TYPE_CONTAINER_CARD = 0x0000;
@@ -102,7 +105,9 @@ public class CardFactory implements ICardFactory {
   }
 }
 ```
-#####3. 一个实现ICard接口的卡片以及与之对应的卡片数据模型
+
+**3. 一个实现ICard接口的卡片以及与之对应的卡片数据模型**
+
 ```java
 卡片实现
 @CardModel(TextCardBean.class)
