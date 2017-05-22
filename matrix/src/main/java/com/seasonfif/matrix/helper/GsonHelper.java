@@ -44,11 +44,11 @@ public class GsonHelper {
      * @return
      */
     public static <T> T format(String jsonStr, Class<T> cls){
-        return sGson.fromJson(jsonStr, cls);
-        /*try{
+        try{
+            return sGson.fromJson(jsonStr, cls);
         }catch (JsonSyntaxException e){
             return null;
-        }*/
+        }
     }
 
     /**

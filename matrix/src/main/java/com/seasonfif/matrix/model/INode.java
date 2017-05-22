@@ -1,5 +1,6 @@
 package com.seasonfif.matrix.model;
 
+import com.seasonfif.matrix.annotation.NestMode;
 import java.util.List;
 
 /**
@@ -10,13 +11,36 @@ import java.util.List;
 
 public interface INode<T> {
 
+  /**
+   * Card类型
+   * @return
+   */
   int getType();
 
+  /**
+   * Card嵌套的位置权重
+   * 只对{@link NestMode#AUTO}类型生效
+   * 因为{@link NestMode#MANUAL}嵌套位置是自己控制的
+   * @return
+   */
   int getWeight();
 
+  /**
+   * Card的额外说明
+   * @return
+   */
   String getDescription();
 
+  /**
+   * Card节点的数据部分
+   * 即该Card展示的数据
+   * @return
+   */
   T getData();
 
+  /**
+   * 该节点的子节点（们）
+   * @return
+   */
   List<? extends INode> getChildren();
 }

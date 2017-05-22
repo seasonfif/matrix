@@ -12,20 +12,28 @@ import com.seasonfif.matrix.card.ICardFactory;
  */
 public class CardFactory implements ICardFactory {
 
+  public static final int TYPE_CONTAINER_CARD = 0x0000;
+
+  public static final int TYPE_ITEM_CARD = 0x0001;
+
+  public static final int TYPE_TEXT_CARD = 0x0002;
+
+  public static final int TYPE_LISTVIEW_CARD = 0x0003;
+
   @Override
   public ICard createCard(Context context, int type) {
     ICard card;
     switch (type){
-      case ContainerCard.TYPE_CONTAINER_CARD:
+      case TYPE_CONTAINER_CARD:
         card = new ContainerCard(context);
         break;
-      case ItemCard.TYPE_ITEM_CARD:
+      case TYPE_ITEM_CARD:
         card = new ItemCard(context);
         break;
-      case TextCard.TYPE_TEXT_CARD:
+      case TYPE_TEXT_CARD:
         card = new TextCard(context);
         break;
-      case ListViewCard.TYPE_LISTVIEW_CARD:
+      case TYPE_LISTVIEW_CARD:
         card = new ListViewCard(context);
         break;
       default:

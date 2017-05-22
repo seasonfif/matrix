@@ -18,8 +18,6 @@ import com.seasonfif.matrix.card.ICard;
 @CardModel(TextCardBean.class)
 public class TextCard extends TextView implements ICard<TextCardBean> {
 
-  public static final int TYPE_TEXT_CARD = 0x0002;
-
   public TextCard(Context context) {
     this(context, null);
   }

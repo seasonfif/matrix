@@ -21,7 +21,6 @@ import com.seasonfif.matrix.card.ICard;
 @CardModel(ContainerCardBean.class)
 public class ContainerCard extends LinearLayout implements ICard<ContainerCardBean> {
 
-  public static final int TYPE_CONTAINER_CARD = 0x0000;
   TextView tv;
 
   public ContainerCard(Context context) {

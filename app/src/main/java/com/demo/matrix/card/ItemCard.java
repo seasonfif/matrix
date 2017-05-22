@@ -20,7 +20,6 @@ import com.seasonfif.matrix.card.ICard;
 @CardModel(ItemCardBean.class)
 public class ItemCard extends LinearLayout implements ICard<ItemCardBean> {
 
-  public static final int TYPE_ITEM_CARD = 0x0001;
   TextView tv;
   LinearLayout root;
 

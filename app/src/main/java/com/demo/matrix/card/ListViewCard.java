@@ -24,8 +24,6 @@ import java.util.List;
 @CardModel(ItemCardBean.class)
 public class ListViewCard<T> extends ListView implements ICard<List<T>> {
 
-    public static final int TYPE_LISTVIEW_CARD = 0x0003;
-
     private TextAdapter adapter;
 
     private OnSwipeLayout onSwipeLayout;
