@@ -3,7 +3,7 @@ Matrix
 
 一个轻量级的基于卡片模板的自动化布局框架
 
-###**关于我**
+**关于我**
 
 > 我的其他项目：
 >[github第三方Android客户端（适配Material Design）](https://github.com/seasonfif/github)
