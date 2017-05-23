@@ -128,7 +128,7 @@ public class TextCard extends TextView implements ICard<TextCardBean> {
     setTextColor(Color.WHITE);
   }
   @Override public int getNestMode() {
-      return NestMode.MANUAL;
+      return NestMode.NONE;
   }
   @Override
   public void update(TextCardBean data) {

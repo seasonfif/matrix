@@ -1,4 +1,4 @@
-package com.seasonfif.matrix.helper;
+package com.seasonfif.matrix.engine;
 
 import com.seasonfif.matrix.model.INode;
 
@@ -10,7 +10,7 @@ import java.util.Comparator;
  * 描述：节点通过权重weight排序
  */
 
-public class NodeComparator implements Comparator<INode> {
+class NodeComparator implements Comparator<INode> {
 
   @Override public int compare(INode lhs, INode rhs) {
     return rhs.getWeight() - lhs.getWeight();

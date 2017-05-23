@@ -4,16 +4,11 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.seasonfif.matrix.annotation.CardModel;
 import com.seasonfif.matrix.annotation.NestMode;
 import com.seasonfif.matrix.card.ICard;
 import com.seasonfif.matrix.card.ICardFactory;
-import com.seasonfif.matrix.helper.GsonHelper;
-import com.seasonfif.matrix.helper.NodeComparator;
 import com.seasonfif.matrix.model.INode;
-import com.seasonfif.matrix.proxy.FactoryProxy;
-
 import java.util.Collections;
 import java.util.List;
 

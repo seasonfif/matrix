@@ -1,4 +1,4 @@
-package com.seasonfif.matrix.helper;
+package com.seasonfif.matrix.engine;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 /**
  * Created by seasonfif on 2017/5/20.
  */
-public class GsonHelper {
+class GsonHelper {
 
     private static Gson sGson = new Gson();
 
