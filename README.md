@@ -27,7 +27,22 @@ Matrix
  5. 框架支持以注解（`CardModel`）形式设置独自数据bean的类型
  6. 框架支持的独自数据bean的类型可以为普通对象（对应json对象）和列表对象（对应json数组）
 
-
+## **设置Gradle依赖**
+1. Add the JitPack repository to your build file
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+2. Add the dependency
+```
+dependencies {
+        compile 'com.github.seasonfif:matrix:v1.0'
+}
+```
 ## **使用方法**
 框架使用特别简单：
 

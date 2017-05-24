@@ -8,18 +8,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import android.widget.ScrollView;
-
 import com.demo.matrix.card.CardFactory;
 import com.demo.matrix.card.ListViewCard;
 import com.demo.matrix.cardmodel.Node;
 import com.demo.matrix.net.RetrofitService;
 import com.demo.matrix.util.DataUtil;
 import com.seasonfif.matrix.engine.Matrix;
-
 import java.io.IOException;
-
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -64,8 +60,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     private void refresh() {
 
+        /**
+         *  使用时如果没有现成的服务端数据可
+         *  借助抓包工具制造数据
+         *  如果没有数据调用onFailure，读本地json
+         */
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://seasonfif.com/")
                 .addConverterFactory(GsonConverterFactory.create())
