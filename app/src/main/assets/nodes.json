@@ -1,25 +1,25 @@
 {
 	"type": 0,
 	"des":"tree",
-	"data":"{\"title\":\"哈哈，我是root card\"}",
+	"data":"{\"title\":\"哈哈，我是ContainerCard\"}",
 	"children":[
 		{
 			"type": 0,
 			"weight": 0,
 			"des":"node:2, index:1, weight:0",
-			"data":"{\"title\":\"哈哈，我是root card\"}",
+			"data":"{\"title\":\"哈哈，我是ContainerCard\"}",
 			"children":[
 				{
 					"type": 0,
 					"weight": 0,
 					"des":"node:3, index:1, weight:0",
-					"data":"{\"title\":\"哈哈，我是root card\"}",
+					"data":"{\"title\":\"哈哈，我是ContainerCard\"}",
 					"children":[
 						{
 							"type": 0,
 							"weight": 0,
 							"des":"node:4, index:1, weight:0",
-							"data":"{\"title\":\"哈哈，我是root card\"}",
+							"data":"{\"title\":\"哈哈，我是ContainerCard\"}",
 							"children":[
 								{
 									"type": 1,
@@ -37,7 +37,7 @@
 					"type": 0,
 					"weight": 0,
 					"des":"node:3, index:2, weight:0",
-					"data":"{\"title\":\"哈哈，我是root card\"}",
+					"data":"{\"title\":\"哈哈，我是ContainerCard\"}",
 					"children":[
 						{
 							"type": 1,

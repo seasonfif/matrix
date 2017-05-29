@@ -43,7 +43,7 @@ public class ItemCard extends LinearLayout implements ICard<ItemCardBean> {
   }
 
   @Override public int getNestMode() {
-    return NestMode.NONE;
+    return NestMode.MANUAL;
   }
 
   @Override public void update(ItemCardBean data) {
