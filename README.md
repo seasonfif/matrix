@@ -40,7 +40,7 @@ allprojects {
 2. Add the dependency
 ```
 dependencies {
-        compile 'com.github.seasonfif:matrix:v1.0'
+        compile 'com.github.seasonfif:matrix:1.0.5'
 }
 ```
 ## **使用方法**
